@@ -209,7 +209,7 @@ header::before {
 }
 
 .hero__card img {
-  opacity: 0.5; /* Adjust opacity as needed */
+  opacity: 1.0; /* Adjust opacity as needed */
 }
 
 .hero__card span img {
@@ -560,4 +560,186 @@ header::before {
   .posts__grid {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+
+/* CSS for AI Section */
+.ai__container {
+  padding: 5rem 1rem;
+  background-color: var(--extra-light);
+  text-align: center;
+}
+
+.ai__content {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.ai__subcontainer {
+  margin-bottom: 3rem;
+  text-align: left; /* Align text to left */
+}
+
+.ai__subcontainer h2.section__header {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.ai__subcontainer p {
+  line-height: 1.6;
+  color: var(--text-dark);
+}
+
+.ai__subcontainer p:not(:last-child) {
+  margin-bottom: 1.5rem; /* Add space between paragraphs */
+}
+
+.ai__subcontainer ul {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+}
+
+.ai__subcontainer li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: var(--text-dark);
+}
+
+.section__subheader {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-light);
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+/* Adjustments for consistency with the rest of the theme */
+.ai__container h2.section__header,
+.ai__container .section__subheader {
+  color: var(--text-light);
+}
+
+.ai__intro{
+    font-size: 1.2rem; /* Adjust the font size as needed */
+}
+/* CSS for AI Section */
+.ai__container {
+  background-color: var(--extra-light);
+  padding: 5rem 1rem;
+  text-align: center;
+  font-family: "Work Sans", sans-serif; /* Set the font-family */
+}
+
+.ai__content {
+  max-width: var(--max-width);
+  margin: auto;
+  text-align: center;
+}
+
+.ai__subcontainer {
+  margin-bottom: 3rem;
+}
+
+.ai__description {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  line-height: 1.0;
+}
+
+.ai__list {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+}
+
+.ai__list li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: var(--text-dark);;
+}
+
+.section__header {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+}
+
+strong {
+  font-weight: 600; /* Medium font weight */
+}
+
+
+.genai__container {
+  background-color: var(--extra-light);
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.genai__content {
+  max-width: var(--max-width);
+  margin: auto;
+}
+
+.genai__description {
+  font-size: 1.3rem;
+  color: var(--text-dark);
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.genai__list {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.genai__list li {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: var(--text-dark);
+}
+
+.genai__contact {
+  font-size: 1.3rem;
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+}
+
+.genai__btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.genai__btn:hover {
+  background-color: var(--secondary-color);
+}
+
+
+
+.genai__content {
+  text-align: center; /* Align content to the center */
+}
+
+.genai__list {
+  list-style: none;
+  padding: 5;
+  text-align: center;
+}
+
+.genai__list li {
+  margin-bottom: 1rem;
+}
+
+.genai__btn {
+  margin-top: 1rem;
 }
